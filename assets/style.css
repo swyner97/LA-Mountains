@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('../images/Layer 629.jpg');
+    
+}
+
+/* HEADER */
+
+.hero {
+    background: url(../images/Hero-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40rem;
+}
+
+
+/* HEADER END */
