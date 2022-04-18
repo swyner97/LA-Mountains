@@ -24,18 +24,21 @@
 
     <!-- HEADER -->
     <header>
-        <div class="nav-container container-sm">
-            <nav id="ul-flex">
+        <div class="nav-container">
+            <div class="flex-nav">
                 <img src="./images/Logo.png">
-                <ul>
-                    <li>
-                        <a href="#history"> 01. HISTORY</a>
-                    </li>
-                    <li>
-                        <a href="#climb">02. CLIMB</a>
-                    </li>
-                </ul>
-            </nav>
+                <nav id="ul-flex">
+
+                    <ul>
+                        <li>
+                            <a href="#history"><nobr>01. HISTORY</nobr> </a>
+                        </li>
+                        <li>
+                            <a href="#climb"><nobr>02. CLIMB</nobr></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
 
@@ -61,42 +64,49 @@
 
     <!-- 1. HISTORY -->
     <section id="history">
-        <div class="history-blurb">
-            <img src="./images/HISTORY_prev_ui.png">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur.
-            </p>
+        <div class="flex-history">
+            <div class="history-blurb">
+                <img src="./images/HISTORY_prev_ui.png">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                    dolore eu
+                    fugiat nulla pariatur.
+                </p>
+            </div>
+            <div class="carousel">
+                <ul class="slider">
+                    <li>
+                        <img class="preview-imgs" src="./images/carousel-img1.jpg">
+                    </li>
+                    <li>
+                        <img class="preview-imgs" src="./images/carousel-img2.jpg">
+                    </li>
+                    <li>
+                        <img class="preview-imgs" src="./images/carousel-img3.jpg">
+                    </li>
+                    <li>
+                        <img class="preview-imgs" src="./images/carousel-img4.jpg">
+                    </li>
+                    <li>
+                        <img class="preview-imgs" src="./images/carousel-img5.jpg">
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="carousel">
-            <ul class="slider">
-                <li>
-                    <img class="preview-imgs" src="./images/carousel-img1.jpg">
-                </li>
-                <li>
-                    <img class="preview-imgs" src="./images/carousel-img2.jpg">
-                </li>
-                <li>
-                    <img class="preview-imgs" src="./images/carousel-img3.jpg">
-                </li>
-                <li>
-                    <img class="preview-imgs" src="./images/carousel-img4.jpg">
-                </li>
-                <li>
-                    <img class="preview-imgs" src="./images/carousel-img5.jpg">
-                </li>
-            </ul>
-        </div>
-
     </section>
 
     <!-- 2. CLIMB -->
     <section id="climb">
         <div class="climb-intro">
-            <img src="./images/02..jpg">
-            <img src="./images/CLIMB.jpg">
+            <div>
+                <img id="number2-img" src="./images/02..jpg">
+                <img src="./images/CLIMB.jpg">
+            </div>
+
 
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
