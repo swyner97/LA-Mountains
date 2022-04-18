@@ -9,6 +9,10 @@ body {
 
 }
 
+a {
+    color: white;
+}
+
 /* HEADER */
 
 header {
@@ -80,12 +84,24 @@ li {
 
 /* HISTORY */
 
-.history {
-    background: url(../images/history-section.jpg) fixed;
+#history {
+    background: url(../images/peak2.jpg) fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 30rem;
+    padding: 10em;
     position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+
+#history p {
+    width: 814px;
+    height: 339px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    font-weight: 300;
+    font-family: "Lato";
 }
 
 .carousel {
@@ -115,3 +131,143 @@ li {
 
 
 /* HISTORY END */
+
+/* CLIMB */
+
+#climb {
+    background: url(../images/climb-section.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.climb-intro {
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+
+}
+
+#mountain-ul li {
+    font-size: 20px;
+    text-decoration: underline;
+    color: #b0b4be;
+    font-weight: 700;
+    font-family: "Oswald";
+    text-underline-offset: 5px;
+}
+
+#mountain-ul {
+    padding: 10px;
+
+}
+
+
+#mountain-ul li:hover {
+    color: #414f6b;
+}
+
+.mountain-li {
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+.mountain-li:hover {
+    background-color: #b0b4be;
+    padding: 10px;
+}
+
+
+.mountain-selection {
+    background-color: #414f6b;
+
+}
+
+.schedule-container {
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15em;
+    position: relative;
+}
+
+.schedule-container h1 {
+    font-size: 32px;
+    color: #414f6b;
+    font-weight: 700;
+    font-family: "Oswald";
+}
+
+.schedule {
+    background-color: rgba(255, 255, 255, 0.493);
+    width: fit-content;
+    padding: 2%;
+}
+
+.schedule-li {
+    display: block;
+
+}
+
+.schedule-list {
+    display: flex;
+    flex-direction: row;
+    line-height: 2;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    font-weight: 300;
+    font-family: "Lato";
+}
+
+.schedule h1 {
+    padding-bottom: 10px;
+}
+
+/* CLIMB END */
+
+/* FOOTER */
+
+footer {
+    background-color: #414f6b;
+}
+
+footer,
+h2 {
+    line-height: 1;
+    color: #63769d;
+    font-family: 'Bebas Neue';
+    text-align: center;
+    letter-spacing: 1px;
+    padding: 10px;
+}
+
+.flex-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.flex-footer p {
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    color: #63769d;
+    font-weight: 900;
+    font-style: italic;
+    font-family: "Lato";
+}
+
+.footer-el {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer-el img {
+    opacity: 0.6;
+}
+
+/* FOOTER END */

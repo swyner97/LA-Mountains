@@ -9,6 +9,10 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&family=Oswald&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="assets/style.css">
 
     <title>Los Angeles Mountains</title>
@@ -23,10 +27,10 @@
                 <img src="./images/Logo.png">
                 <ul>
                     <li>
-                        01. HISTORY
+                      <a href="#history"> 01. HISTORY</a>
                     </li>
                     <li>
-                        02. CLIMB
+                     <a href="#climb">02. CLIMB</a>   
                     </li>
                 </ul>
             </nav>
@@ -57,7 +61,13 @@
     </div>
 
     <!-- 1. HISTORY -->
-    <section class="history">
+    <section id="history">
+        <div>
+            <img src="./images/HISTORY_prev_ui.png">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+            </p>>
+        </div>
         <div class="carousel">
             <ul class="slider">
                 <li>
@@ -81,15 +91,65 @@
     </section>
 
     <!-- 2. CLIMB -->
-    <section class="climb">
+    <section id="climb">
+        <div class="climb-intro">
+            <img src="./images/02..jpg">
+
+        </div>
         <div class="mountain-selection">
+            <ul id="mountain-ul">
+                <li class="mountain-li" id="mountain-1" cursor:>
+                    MOUNTAIN 1
+                </li>
+                <li class="mountain-li" id="mountain-2">
+                    MOUNTAIN 2
+                </li>
 
+            </ul>
         </div>
-        <div class="schedule">
 
+        <div class="schedule-container">
+            <div class="schedule">
+                <h1>SCHEDULE</h1>
+                <div class="schedule-list">
+                    <ul>
+                        <li class="schedule-li">25 Nov 2016</li>
+                        <li class="schedule-li">28 Nov 2016</li>
+                        <li class="schedule-li">18 Dec 2016</li>
+                        <li class="schedule-li">7 Jan 2017</li>
+                    </ul>
+                    <ul>
+                        <li class="schedule-li">Vetibulum viverra</li>
+                        <li class="schedule-li">Vetibulum viverra</li>
+                        <li class="schedule-li">Vetibulum viverra</li>
+                        <li class="schedule-li">Vetibulum viverra</li>
+
+                    </ul>
+                </div>
+
+            </div>
         </div>
+
+
 
     </section>
+
+    <footer>
+        <div class="flex-footer">
+            <div class="footer-el">
+                <img src="./images/Logo.png">
+                <h2>
+                    LOS ANGELES<br>
+                    MOUNTAINS
+                </h2>
+            </div>
+
+            <p>COPYRIGHT 2016. ALL RIGHTS RESERVED</p>
+        </div>
+
+    </footer>
+
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
