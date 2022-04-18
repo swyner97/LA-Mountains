@@ -46,6 +46,10 @@ li {
     display: inline;
 }
 
+.nav-container {
+    position: absolute;
+}
+
 
 /* HEADER END */
 
@@ -55,7 +59,9 @@ li {
     background: url(../images/Hero-img.jpg) fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 30rem;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 25rem;
 
 }
 
@@ -88,15 +94,24 @@ li {
     background: url(../images/peak2.jpg) fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 10em;
-    position: relative;
+    background-attachment: fixed;
+    background-position: center;
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    display: block;
+ 
+
+.history-blurb {
+    padding: 5%
+}
+
+#history img {
+    padding: 5%;
 }
 
 #history p {
-    width: 814px;
-    height: 339px;
+    width: 55%;
     font-size: 16px;
     line-height: 24px;
     color: #000000;
@@ -108,12 +123,10 @@ li {
     background-color: rgba(65, 79, 107, 0.72);
     display: flex;
     justify-content: center;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    right: 0;
     padding: 3%;
     flex-direction: row;
+    width: calc(100vw - 10px);
+    margin-left: calc(-50vw + 50% + 5px);
 }
 
 .preview-imgs {
@@ -135,18 +148,26 @@ li {
 /* CLIMB */
 
 #climb {
-    background: url(../images/climb-section.jpg);
+    background: url(../images/climb-section.jpg) fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 .climb-intro {
     background-color: white;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     padding: 50px;
+    flex-direction: row;
+    align-items: center;
+}
 
+.climb-intro p {
+    margin-left: 10%;
+    width: 65%;
 }
 
 #mountain-ul li {
@@ -271,3 +292,26 @@ h2 {
 }
 
 /* FOOTER END */
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+
+@media screen and (max-width: 980px) {
+    .nav-container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+  #history img {
+      width: 30%;
+  }
+
+  #history p {
+    width: 30%;
+  }
+
+  #history {
+      background-size: cover;
+      
+  }
+}
