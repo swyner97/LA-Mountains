@@ -11,9 +11,11 @@ a {
 /* HEADER */
 
 header {
-    background: url(../images/Hero-img.jpg) no-repeat fixed;
-    background-size: cover;
-    background-attachment: fixed;
+    background: url(../images/Hero-img.jpg);
+    background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
 nav {
