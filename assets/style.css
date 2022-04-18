@@ -82,10 +82,11 @@ li {
     background-color: white;
     display: flex;
     align-items: center;
+    
     flex-wrap: wrap;
 }
 
-#nav2 {
+#nav2 ul li a {
     font-size: 12px;
     letter-spacing: 1px;
     line-height: 20px;
@@ -96,6 +97,7 @@ li {
     display: flex;
     flex-direction: row;
     align-items: center;
+    display: inline;
 }
 
 /* NAV#2 END*/
@@ -366,6 +368,35 @@ h2 {
 
     #number2-img {
         width: 40%;
+    }
+
+
+}
+
+@media screen and (max-width: 470px) {
+    #mountain-ul {
+        display: inline;
+
+    }
+
+    .mountain-selection {
+        width: fit-content;
+    }
+
+    header {
+        background-size: contain;
+    }
+
+    .hero {
+        background-size: contain;
+    }
+
+    #history {
+        background-size: contain;
+    }
+
+    #climb {
+        background-size: contain;
     }
 
 
