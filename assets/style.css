@@ -384,19 +384,41 @@ h2 {
     }
 
     header {
-        background-size: contain;
+        background-size: cover;
     }
 
     .hero {
-        background-size: contain;
+        background-size: cover;
     }
 
     #history {
-        background-size: contain;
+        background-size: cover;
     }
 
     #climb {
-        background-size: contain;
+        background-size: cover;
+    }
+
+
+}
+
+
+@media screen and (max-width: 400px) {
+
+    header {
+        background-size: cover;
+    }
+
+    .hero {
+        background-size: cover;
+    }
+
+    #history {
+        background-size: cover;
+    }
+
+    #climb {
+        background-size: cover;
     }
 
 
