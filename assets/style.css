@@ -11,7 +11,7 @@ a {
 /* HEADER */
 
 header {
-    background: url(../images/Hero-img.jpg) no-repeat top fixed;
+    background: url(../images/Hero-img.jpg) no-repeat fixed;
     background-size: cover;
     background-attachment: fixed;
 }
