@@ -70,10 +70,11 @@ li {
 /* NAV#2 */
 
 #nav2-container {
+    justify-content: space-evenly;
     background-color: white;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 #nav2 {
@@ -84,6 +85,9 @@ li {
     font-weight: 900;
     font-style: italic;
     font-family: "Lato";
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 /* NAV#2 END*/
@@ -99,11 +103,14 @@ li {
     display: flex;
     align-items: center;
     flex-direction: column;
-    display: block;
 }
 
 .history-blurb {
-    padding: 5%
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 100%;
 }
 
 #history img {
@@ -127,6 +134,7 @@ li {
     flex-direction: row;
     width: calc(100vw - 10px);
     margin-left: calc(-50vw + 50% + 5px);
+
 }
 
 .preview-imgs {
@@ -301,17 +309,29 @@ h2 {
     }
 }
 
+@media only screen and (max-width:768px) {
+    .hero {
+        padding: 20rem;
+    }
+
+    .slider {
+        width: 60em;
+        overflow: hidden;
+    }
+
+}
+
 @media screen and (max-width: 750px) {
-  #history img {
-      width: 30%;
-  }
+    #history img {
+        width: 30%;
+    }
 
-  #history p {
-    width: 30%;
-  }
+    #history p {
+        width: 30%;
+    }
 
-  #history {
-      background-size: cover;
-      
-  }
+    #history {
+        background-size: cover;
+
+    }
 }
