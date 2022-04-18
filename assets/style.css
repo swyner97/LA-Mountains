@@ -100,7 +100,7 @@ li {
     align-items: center;
     flex-direction: column;
     display: block;
- 
+}
 
 .history-blurb {
     padding: 5%
